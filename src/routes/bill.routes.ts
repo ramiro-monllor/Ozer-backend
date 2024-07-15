@@ -2,11 +2,13 @@
 import { Router } from "express";
 
 // Controller Imports
-import { getBills } from "../controllers/bill";
+import { createBill, deleteBill, getBills, updateBill } from "../controllers/bill";
 
 const bill = Router()
 
 bill.get('/', getBills)
-// bill.get('/:billId', getBillByID)
+bill.post('/', createBill)
+bill.put('/:billId', updateBill)
+bill.delete('/:billId', deleteBill)
 
 export default bill;
