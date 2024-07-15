@@ -18,7 +18,7 @@ Clients and Bills - API es un sistema desarrollado utilizando tecnologías moder
 
 Para comenzar a utilizar Clients and Bills - API en tu entorno local, sigue los siguientes pasos:
 
-1. Clona el repositorio desde [https://github.com/ramiro-monllor/Ozet-backend].
+1. Clona el repositorio desde [https://github.com/ramiro-monllor/Ozer-backend].
 2. Abre una terminal y navega hasta la ubicación del proyecto.
 3. Ejecuta el siguiente comando para instalar las dependencias:
 
@@ -69,4 +69,4 @@ Abre tu navegador y visita http://localhost:3001 para acceder a la API.
 
 ## Repositorio
 
-- https://github.com/ramiro-monllor/Ozet-backend
+- https://github.com/ramiro-monllor/Ozer-backend
